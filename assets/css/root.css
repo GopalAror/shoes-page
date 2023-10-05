@@ -1,0 +1,113 @@
+
+:root {
+    /* color */
+    --fc-black1:#222;
+    --fc-black2: #16141F;
+    --fc-black3:#181818;
+    --fc-grey1: #555;
+    --fc-grey2: #808082;
+    --fc-grey3:#AA9E78;
+    --fc-grey4:#999;
+    --fc-grey5:#9C9C9C;
+    --fc-green1: #28A745;
+    --fc-khakhigreen:#454729;
+    --fc-white1: #F3F3F3;
+    --fc-red1: #CC111C;
+    --fc-red2:#F00;
+    --fc-blue1:#007BFF;
+    --fc-orange1:#D36B31;
+    --fc-orange2:#FF4400;
+    /* font-size */
+    --fs-xs:10px;
+    --fs-xs1:14px;
+    --fs-s:16px;
+    --fs-s1:18px;
+    --fs-m:20px;
+    --fs-m1:24px;
+    --fs-m2:25px;
+    --fs-lg:30px;
+}
+/* color */
+.black1{
+    color:var(--fc-black1);
+}
+.black2{
+    color:var(--fc-black2);
+}
+.black3{
+    color:var(--fc-black3);
+}
+.grey1{
+    color: var(--fc-grey1);
+}
+.grey2{
+    color: var(--fc-grey2);
+}
+.grey3{
+    color: var(--fc-grey3);
+}
+.grey4{
+    color: var(--fc-grey4);
+}
+.grey5{
+    color: var(--fc-grey5);
+}
+.green1{
+    color: var(--fc-green1);
+}
+.khakhi{
+    color: var(--fc-khakhigreen);
+}
+.white1{
+    color: var(--fc-white1);
+}
+.red1{
+    color: var(--fc-red1);
+}
+.red2{
+    color: var(--fc-red2);
+}
+.blue1{
+    color: var(--fc-blue1);
+}
+.orange1{
+    color: var(--fc-orange1);
+}
+.orange2{
+    color: var(--fc-orange2);
+}
+/* font-size */
+.fs-10{
+    font-size: var(--fs-xs);
+}
+.fs-14{
+    font-size: var(--fs-xs1);
+}
+.fs-16{
+    font-size: var(--fs-s);
+}
+.fs-18{
+    font-size: var(--fs-s1);
+}
+.fs-20{
+    font-size: var(--fs-m);
+}
+.fs-24{
+    font-size: var(--fs-m1);
+}
+.fs-25{
+    font-size: var(--fs-m2);
+}
+.fs-30{
+    font-size: var(--fs-lg);
+}
+/*font-family */
+.robot{
+font-family: 'Roboto';
+}
+.poppins{
+    font-family: 'poppins';
+}
+.josefinsans{
+    font-family: 'Josefin Sans';
+}
