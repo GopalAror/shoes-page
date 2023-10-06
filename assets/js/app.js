@@ -10,6 +10,7 @@ let count_no= document.getElementById("count_no")
 let sub = document.getElementById("sub")
 let add = document.getElementById("add")
 
+// nav//
 menu.addEventListener("click",function(){
   mobileView.classList.toggle("show");
   document.querySelector("body").classList.toggle("overflow-hidden");
@@ -31,6 +32,8 @@ sale.addEventListener("click",function(){
   span5.classList.remove("span2");
   span6.classList.remove("span3");
 })
+
+// tab//
 function opentab(tabId) {
   mycontent = document.querySelectorAll(".tab-text")
   mycontent.forEach(Mycontent => {
@@ -42,7 +45,7 @@ function opentab(tabId) {
   opentab.classList.add("d_block");
         };
         opentab('tab1') ;
-
+// count//
 
         add.addEventListener("click", function(){
           count++;
@@ -53,9 +56,14 @@ function opentab(tabId) {
           count_no.innerHTML = count;
         })
 
+        // preloader//
+
         const preloader = document.getElementById("preloader")
 setTimeout(() => {
         preloader.classList.add("d-none")
-        preloader.classList.add("pointer-event-none")
         document.body.classList.remove("overflow-hidden")
     }, 2000)
+    
+
+    // backto-top-btn//
+    
